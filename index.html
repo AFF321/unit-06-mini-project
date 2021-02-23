@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
     <link href ='./custom-css.css'>
-    <title>Document</title>
+    <title>Library of Congress Search-Engine</title>
     
     <script
       src="https://code.jquery.com/jquery-3.5.1.min.js"
@@ -15,28 +15,42 @@
     ></script>
 </head>
 <body>
-  <div class="jumbotron jumbotron-fluid">
-    <div class="container">
-      <h1 class="display-4">Fluid jumbotron</h1>
-      <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-    </div>
-  </div>
+<div class="main-container">
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Library of Congress Search-Engine</h1>
+            <p class="lead">Show Results.</p>
+          </div>
+        </div>
 
-  <div class="col-md-12 container">
-    <div class="input-group">
-      <div class="form-outline">
-        <input type="search" id="form1" class="form-control" />
-        <label class="form-label" for="form1">Search</label>
-      </div>
-      <button type="button" class="btn btn-primary cstm-btn">
-        <i class="fas fa-search"></i>
-      </button>
-    </div>
-   </div>   
-
-
-
-
+        <div class="row">
+          <div class="col-12 col-md-8">.col-12 .col-md-8</div>
+          <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+        </div>
+        
+        <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+        <div class="row">
+          <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+          <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+          <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+        </div>
+        
+        <!-- Columns are always 50% wide, on mobile and desktop -->
+        <div class="row">
+          <div class="col-6">.col-6</div>
+          <div class="col-6">.col-6</div>
+        <div class="col-md-12 container">
+          <div class="input-group">
+            <div class="form-outline">
+              <input type="search" id="form1" class="form-control" />
+              <label class="form-label" for="form1">Search</label>
+            </div>
+            <button type="button" class="btn btn-primary cstm-btn">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+        </div>
+</div>
 
     <script src="./javascript.js"></script>
 </body>
